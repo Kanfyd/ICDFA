@@ -5,7 +5,7 @@
 ### Week 4 Practical Laboratory: Linux Security Monitoring and Auditing (From Technical Evidence to Governance Assurance)
 
 * **Student Name:** Confidence Chinwuko
-* **Registration Number:** GRC102-W4-LAB
+* **Registration Number:** C11-26-CGRCE-17558
 * **Course / Module:** GRC102 — Information Security Governance
 * **Target Environment:** Kali Linux (`kali@kali` VM)
 * **Date of Execution:** October 2026
@@ -512,3 +512,11 @@ Recommended Action:     Enable UFW/iptables service and enforce default ingress 
 Retest Evidence:        Lynis test FIRE-8410 passing; Firewall status [V]; Index improved to 63/100
 ================================================================================
 ```
+
+
+##  Lab Evidence & Screenshots
+
+The complete visual evidence, terminal outputs, and screenshots demonstrating the successful execution of all lab activities can be reviewed at the link below:
+
+**Click Here; https://docs.google.com/document/d/15l7MgaHwUnjQ-EJXzH7iv_Z_1-MqkCA8YMFZxij2cq8/edit?usp=drivesdk
+  to View All Lab Screenshots and Evidence
