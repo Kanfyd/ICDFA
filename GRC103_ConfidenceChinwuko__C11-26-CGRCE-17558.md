@@ -3,8 +3,7 @@
 ## Student & Assessment Metadata
 - **Student Name:** Confidence Chinwuko
 - **Course Code:** GRC103
-- **Registration Number:** CAL-20261018-EB94B241A2EE
-- **Cohort / Identifier:** C11-26-CGRCE-17558
+- **Registration Number:** C11-26-CGRCE-17558
 - **Target Host IP (Metasploitable):** `192.168.56.102`
 - **Attacker Host IP (Kali Linux):** `192.168.56.101`
 - **Assessment Date:** October 2026
@@ -122,3 +121,6 @@ A comprehensive technical vulnerability assessment was conducted on the internal
 2. **Protocol Hardening & Service Decommissioning:** Permanently disable legacy unencrypted protocols (Telnet) and unnecessary daemons. Enforce encrypted alternatives such as SSH key-based authentication only.
 3. **Patch Management & Software Modernization:** Upgrade all third-party packages, web servers (`Apache/2.2.8`), and FTP daemons to vendor-supported, patched releases.
 4. **Baseline Compliance Review:** Institute automated vulnerability scanning gates in the CI/CD pipeline to ensure future development servers strictly conform to corporate security baselines before network activation.
+
+
+Evidence Scans in the link... https://docs.google.com/document/d/1hL_Om8f-lbQNuPg8RFfbGj0B2iOCduce7E-w9Spr9Zo/edit?usp=sharing
