@@ -1,8 +1,8 @@
 # Practical Lab: Ransomware Risk Treatment — Case Analysis and Management
 **Course:** GRC103 — Risk Assessment and Management Techniques  
 **Institution:** International Cybersecurity and Digital Forensics Academy (ICDFA)  
-**Student Name:** [Insert Your Name Here]  
-**Registration Number:** [Insert Registration Number Here]  
+**Student Name:** Confidence Chinwuko  
+**Registration Number:** C11-26-CGRCE-17558  
 **Official Case Source:** [Health Service Executive (HSE) Cyber-attack Briefing](https://www2.hse.ie/services/cyber-attack/what-happened/)  
 
 ---
@@ -208,4 +208,3 @@ To secure system authentication and close external access points, we have alloca
 Funding the MFA price increase required deferring the Managed Detection Service (Option D: $35,000). This creates an unmitigated monitoring gap owned by the Information Security Manager. Given our 4-hour limit on manual bookings, operating without 24/7 detection exceeds our target risk tolerance and is submitted to the Board for formal risk sign-off.
 ```
 
-Let me know if you would like me to adjust any of the numerical figures or calculations before you submit this to your repository!
