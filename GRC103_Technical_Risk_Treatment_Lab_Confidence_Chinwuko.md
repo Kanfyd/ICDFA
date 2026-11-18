@@ -227,7 +227,7 @@ To distinguish one-time lab verification results from continuous operational ass
 ---
 
 ## 7. Submission Package Inventory (`README` Mapping)
-All raw command outputs, configuration snapshots, logs, and screenshots are packaged in the companion ZIP archive mapped below:
+All raw command outputs, configuration snapshots, logs, and screenshots are packaged in this link: https://docs.google.com/document/d/1zBU9nYNYV3MGPl1P-TDyEDW8o5GIQRghN0COl1eQJDA/edit?usp=sharing
 
 * **Step 1–3 (Environment Setup):** `ip-addr-ubuntu.txt`, `ip-addr-kali.txt`, `grc-lab.nginx.conf`
 * **Step 4 (Baseline Evidence):** `baseline-time.txt`, `baseline-ports.txt`, `baseline-web.txt`, `baseline-listing.txt`, `baseline-file.txt`, `baseline-legacy.txt`
