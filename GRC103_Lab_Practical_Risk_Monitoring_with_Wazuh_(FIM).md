@@ -26,7 +26,7 @@ A recent risk assessment identified the **unauthorized modification or deletion 
 3. **All-in-One Deployment:** Executed `sudo bash wazuh-install.sh -a -i` to deploy Wazuh `v4.12.0`, initialize cluster certificates, and generate administrative credentials.
 4. **Firewall & Service Verification:** Allowed ports `443/tcp` (Dashboard HTTPS), `1514/tcp` (Agent communication), and `1515/tcp` (Agent enrollment) in UFW, then verified `wazuh-manager.service` was `active (running)`.
 
-> *[Insert Screenshot: Ubuntu terminal showing `wazuh-install.sh` completion summary and `systemctl status wazuh-manager` active]*
+> *[Screenshot of Ubuntu terminal showing `wazuh-install.sh` completion summary and `systemctl status wazuh-manager` active]   (https://docs.google.com/document/d/1KYt2NtnAiSs6N5iCMr-CGaYZ6eQJtoay7NERhudNsWk/edit?usp=sharing)*
 
 ---
 
@@ -34,7 +34,7 @@ A recent risk assessment identified the **unauthorized modification or deletion 
 1. Navigated to the Wazuh web console (`https://127.0.0.1/app/login`), accepted the expected self-signed TLS certificate warning, and authenticated as `admin`.
 2. Confirmed under **Server APIs** that `kanfyd-ubuntu` (`v4.12.0`) showed a status of **Online**.
 
-> *[Insert Screenshot: Wazuh Dashboard Server API connection showing `kanfyd-ubuntu` Online]*
+> *[Screenshot of Wazuh Dashboard Server API connection showing `kanfyd-ubuntu` Online]    (https://docs.google.com/document/d/1KYt2NtnAiSs6N5iCMr-CGaYZ6eQJtoay7NERhudNsWk/edit?usp=sharing)*
 
 ---
 
