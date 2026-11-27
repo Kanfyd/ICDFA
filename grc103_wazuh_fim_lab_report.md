@@ -43,7 +43,7 @@ A recent risk assessment identified the **unauthorized modification or deletion 
 2. Registered the agent via `/var/ossec/bin/manage_agents` (`ID: 001` / `002`, Name: `Finance-Dept-Workstation`, IP: `any`), imported the authentication key into the Windows Wazuh Agent Manager, and restarted `WazuhSvc`.
 3. Verified on the Wazuh Dashboard **Overview** panel that the agent reported **Active (1)** with **Disconnected (0)**.
 
-> *[Insert Screenshot: Windows Wazuh Agent Manager status "Running" and Dashboard "Active (1)"]*
+*Screenshots of Windows Wazuh Agent Manager status "Running" and Dashboard "Active (1)"all attached here... (https://docs.google.com/document/d/1KYt2NtnAiSs6N5iCMr-CGaYZ6eQJtoay7NERhudNsWk/edit?usp=sharing)*
 
 ---
 
@@ -62,7 +62,7 @@ A recent risk assessment identified the **unauthorized modification or deletion 
 | `13:19:50.5...` | `Finance-Dept-Workstation` | `c:\users\confidence\sensitivefiles\q4_financial_forecast...` | `modified` | `550` – Integrity checksum changed | 7 |
 | `13:20:25.6...` | `Finance-Dept-Workstation` | `c:\users\confidence\sensitivefiles\q4_financial_forecast...` | `deleted` | `553` – File deleted | 7 |
 
-> *[Insert Screenshot: Wazuh FIM Events table showing Rule IDs 554, 550, and 553 for `q4_financial_forecast`]*
+> *Screenshot of: Wazuh FIM Events table showing Rule IDs 554, 550, and 553 for `q4_financial_forecast also attached here... https://docs.google.com/document/d/1KYt2NtnAiSs6N5iCMr-CGaYZ6eQJtoay7NERhudNsWk/edit?usp=sharing*
 
 ---
 
@@ -95,7 +95,7 @@ A recent risk assessment identified the **unauthorized modification or deletion 
 * **Providing Evidence for Compliance Audits (SOX, PCI DSS, HIPAA):**
   * Regulatory frameworks require verifiable proof that critical files are monitored for unauthorized changes. Wazuh generates timestamped audit records containing the exact file path, event action, rule attribution, and cryptographic checksums (MD5, SHA-1, SHA-256) before and after modification.
 * **Demonstrating Unaltered File Integrity Over a Defined Period (e.g., Last Quarter):**
-  1. Open the Wazuh Dashboard and set the **Time Range Filter** in the top-right corner to the exact audit quarter (e.g., `Last 90 days` or custom start/end dates).
+  1. Open the Wazuh Dashboard and set the **Time Range Filter** in the top-right corner to the exact audit quarter (e.g., `Last 30 days` or custom start/end dates).
   2. Filter the search bar by endpoint and file path:
      ```text
      agent.name: "Finance-Dept-Workstation" AND syscheck.path: "c:\\users\\confidence\\sensitivefiles\\q4_financial_forecast.docx"
